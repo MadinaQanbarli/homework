@@ -1,0 +1,34 @@
+.navbar{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navlinks{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    float: right;
+    list-style: none;
+    a{
+        color: cadetblue;
+        text-decoration: none;
+        padding: 5px;
+        margin: 5px;
+        
+    }
+
+}
+.mypage{
+    text-decoration: none;
+    color: darkcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: auto;
+}
+.navlinks ul li{
+    margin: 0 5px;
+}
+.navlinks a:hover{
+    background-color: aqua;
+    border-radius: 5px;
+
+}
