@@ -1,0 +1,27 @@
+.menu{
+    background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    a{
+        text-decoration: none;
+        color: black;
+        
+    }
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    margin: 5px;
+    padding: 3px 5px;
+}
+.submenu{
+    display: none;
+}
+.menu ul li.nested:hover .submenu {
+    display: block;
+    position: absolute;
+    background-color: blue;
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
